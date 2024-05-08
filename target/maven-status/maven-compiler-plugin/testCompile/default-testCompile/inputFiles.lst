@@ -1,0 +1,13 @@
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/ride/application/RideControllerIntegrationTest.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/driver/dto/DriverDtoValidationTest.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/passenger/dto/PassengerLocationDtoValidationTest.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/driver/application/DriverControllerIntegrationTest.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/passenger/application/PassengerControllerIntegrationTest.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/ride/dto/RideRequestDtoValidationTest.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/review/application/ReviewControllerIntegrationTest.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/passenger/dto/PassengerDtoValidationTest.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/utils/Reader.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/review/dto/NewReviewDtoValidationTest.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/LabE2e02ApplicationTests.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/driver/dto/NewDriverRequestDtoValidationTest.java
+/Users/mateonoel/Desktop/lab-e2e-20241-02/src/test/java/org/e2e/labe2e02/ride/dto/RidesByUserDtoValidationTest.java

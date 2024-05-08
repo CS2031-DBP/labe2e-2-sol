@@ -1,0 +1,70 @@
+package org.e2e.labe2e02.user_locations.domain;
+
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import jakarta.persistence.*;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import org.e2e.labe2e02.coordinate.domain.Coordinate;
+import org.e2e.labe2e02.passenger.domain.Passenger;
+
+@Entity
+@Data
+@EqualsAndHashCode
+@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+public class UserLocation {
+    @EmbeddedId
+    private PassengerCoordinateId id;
+
+    public UserLocation(Passenger passenger, Coordinate coordinate, String description) {
+        this.passenger =  passenger;
+        this.coordinate = coordinate;
+        this.description = description;
+        this.id = new PassengerCoordinateId(passenger.getId(), coordinate.getId());
+    }
+
+    public UserLocation() {}
+
+    @Column(nullable = false)
+    private String description;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @MapsId("passengerId")
+    private Passenger passenger;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @MapsId("coordinateId")
+    private Coordinate coordinate;
+
+    public PassengerCoordinateId getId() {
+        return id;
+    }
+
+    public void setId(PassengerCoordinateId id) {
+        this.id = id;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Passenger getPassenger() {
+        return passenger;
+    }
+
+    public void setPassenger(Passenger passenger) {
+        this.passenger = passenger;
+    }
+
+    public Coordinate getCoordinate() {
+        return coordinate;
+    }
+
+    public void setCoordinate(Coordinate coordinate) {
+        this.coordinate = coordinate;
+    }
+}

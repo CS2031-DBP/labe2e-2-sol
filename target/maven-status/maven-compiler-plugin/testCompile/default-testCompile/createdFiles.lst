@@ -1,0 +1,13 @@
+org/e2e/labe2e02/ride/application/RideControllerIntegrationTest.class
+org/e2e/labe2e02/LabE2e02ApplicationTests.class
+org/e2e/labe2e02/driver/dto/DriverDtoValidationTest.class
+org/e2e/labe2e02/ride/dto/RidesByUserDtoValidationTest.class
+org/e2e/labe2e02/passenger/application/PassengerControllerIntegrationTest.class
+org/e2e/labe2e02/review/dto/NewReviewDtoValidationTest.class
+org/e2e/labe2e02/driver/dto/NewDriverRequestDtoValidationTest.class
+org/e2e/labe2e02/passenger/dto/PassengerLocationDtoValidationTest.class
+org/e2e/labe2e02/driver/application/DriverControllerIntegrationTest.class
+org/e2e/labe2e02/review/application/ReviewControllerIntegrationTest.class
+org/e2e/labe2e02/ride/dto/RideRequestDtoValidationTest.class
+org/e2e/labe2e02/utils/Reader.class
+org/e2e/labe2e02/passenger/dto/PassengerDtoValidationTest.class

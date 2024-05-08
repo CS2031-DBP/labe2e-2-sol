@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.e2e.labe2e02.LabE2e02ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.936 s -- in org.e2e.labe2e02.LabE2e02ApplicationTests
